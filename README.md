@@ -1,71 +1,93 @@
-# Getting Started with Create React App
+# My Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my professional portfolio!\
 
-## Available Scripts
+This project showcases my skills, experience, and projects in software development. It serves as a personal introduction to my work, demonstrating my abilities in web development, design, and coding practices.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+* Overview
+* Features
+* Technologies Used
+* Installation
+* Usage
+* Projects
+* Contact
+* Acknowledgements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## `Overview` 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This portfolio website is a comprehensive representation of my journey and skills in the tech industry. It includes sections about my background, a detailed list of my skills, projects I've worked on, and ways to contact me. My goal is to provide a clear and engaging user experience that reflects my passion for software development and my commitment to continuous learning.
 
-### `npm test`
+## `Features`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Responsive Design: Optimized for various devices, ensuring a seamless experience on desktops, tablets, and smartphones.\
 
-### `npm run build`
+* Interactive Projects Section: Showcases my projects with a description, technologies used, and links to a demo and source code.\
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Contact Form: Allows visitors to get in touch with me directly through the website.\
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Downloadable Resume: Offers a button to download my latest resume in PDF format.\
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Technologies Used:
+    - Frontend: React.js, JavaScript, HTML5, CSS3
+    - Styling: Bootstrap, custom CSS, Flexbox, and Grid Layout
+    - Icons and Graphics: React Icons, custom-made graphics
+    - Version Control: Git, GitHub
+    - Deployment: Hosted on Vercel\
 
-### `npm run eject`
+## `Installation`
+To run this portfolio locally on your machine, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+`Clone the repository:`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+bash
+Copy code
+git clone https://github.com/mariluzc23/my-portfolio.git
+Navigate to the project directory:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+bash
+Copy code
+cd my-portfolio
+Install dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+bash
+Copy code
+npm install
+Start the development server:
 
-## Learn More
+bash
+Copy code
+npm start
+Open your browser and go to http://localhost:3000 to view the portfolio.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## `Usage`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Browse through the different sections of the portfolio to learn more about me, my skills, and my projects.\
 
-### Code Splitting
+Visit the projects section to view detailed information about the projects I've worked on, including links to GitHub repositories for the source code.\
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Use the contact form to send me a message directly.\
 
-### Analyzing the Bundle Size
+Download my resume using the provided download button in the contact section.\
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## `Projects`
+The projects showcased in this portfolio include a variety of web development applications that demonstrate my skills in frontend and backend development, including but not limited to:
 
-### Making a Progressive Web App
+* Flashcard App: An interactive flashcard app that helps users learn and memorize information effectively.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Card Flip Feature: Demonstrates my ability to create engaging and interactive UI components.
+For a complete list of projects, please visit the projects section of the portfolio.
 
-### Advanced Configuration
+## `Contact`
+If you would like to get in touch, please feel free to contact me:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+[Email]: mailto:mcolon0523@gmail.com
+[LinkedIn]: www.linkedin.com/in/mariluzcolon
+[GitHub]: www.github.com/mariluzc23
 
-### Deployment
+## `Acknowledgements`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+I would like to thank everyone who supported me on my journey into software development, including my mentors, friends, and family. \
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# My-Portfolio
+Special thanks to the coding bootcamp instructors who provided invaluable knowledge and guidance.
