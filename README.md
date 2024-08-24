@@ -79,9 +79,11 @@ For a complete list of projects, please visit the projects section of the portfo
 ## `Contact`
 If you would like to get in touch, please feel free to contact me:
 
-[Email]: (mailto:mcolon0523@gmail.com)
-[LinkedIn]: (www.linkedin.com/in/mariluzcolon)
-[GitHub]: (www.github.com/mariluzc23)
+- **Email:** [mcolon0523@gmail.com](mailto:mcolon0523@gmail.com)
+
+- **LinkedIn:** [mariluzcolon](www.linkedin.com/in/mariluzcolon)
+
+- **GitHub:** [mariluzc23](www.github.com/mariluzc23)
 
 ## `Acknowledgements`
 
