@@ -43,6 +43,7 @@ function App() {
             <li>HTML</li>
             <li>Bootstrap</li>
           </ul>}
+          codeLinkDemo=""
           codeLink="https://bit.ly/4dxk8TV"
           />
         </div>
@@ -52,24 +53,26 @@ function App() {
         <h2>Java Projects</h2>
         <div className="projects-grid">
           <ProjectCard
-          title="Project One"
-          description="Enter description"
+          title="
+          Currency Converter App"
+          description="Developed a Java Swing application for currency conversion, featuring an intuitive GUI."
           techStack={
             <ul>
-              <li>enter stack</li>
-              <li>enter stack</li>
+              <li>Java</li>
+              <li>Java Swing</li>
             </ul>}
-          codeLink="Enter Link"
+          codeLinkDemo="https://bit.ly/3sEw3N2"
+          codeLink="https://bit.ly/3R1yN1b"
           />
            <ProjectCard
-          title="Project Two"
-          description="Enter description"
+          title="Tic-Tac-Toe"
+          description="This is a Tic-Tac-Toe gameboard that can be played in the terminal/console."
           techStack={
             <ul>
-              <li>enter stack</li>
-              <li>enter stack</li>
+              <li>Java</li>
             </ul>}
-          codeLink="Enter Link"
+          codeLinkDemo=""
+          codeLink="https://bit.ly/3sVVp9m"
           />
         </div>
       </section>

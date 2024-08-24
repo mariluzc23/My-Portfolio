@@ -7,7 +7,6 @@ function Contact() {
         <div>
         <section id="contact">
         <h2>Contact Me</h2>
-        {/* Add contact form here */}
         <a href="/MariluzSWE.pdf" download="MariluzSWE.pdf" className="resume-download">
             <FaDownload size={10}/> Download Resume
         </a>
@@ -29,17 +28,17 @@ function Contact() {
           <label htmlFor="message">Message:</label>
           <textarea id="message" name="message" rows="4" required style={{ width: '100%', padding: '10px', margin: '5px 0' }}></textarea>
         </div>
-        <button type="submit" style={{ padding: '10px 20px', backgroundColor: '#282c34', color: 'white', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>
+        <button className="submit-button" type="submit" style={{ padding: '10px 20px', color: 'white', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>
           Send Message
         </button>
       </form>
       <div style={{ marginTop: '30px' }}>
         <h3>Connect with me</h3>
         <div style={{ fontSize: '24px', margin: '20px 0' }}>
-          <a href="https://www.linkedin.com/in/mariluzcolon" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px', color: '#0077b5' }}>
+          <a href="https://www.linkedin.com/in/mariluzcolon" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px', color: '#0077b5'}}>
             <FaLinkedin />
           </a>
-          <a href="https://github.com/mariluzc23" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px', color: '#333' }}>
+          <a href="https://github.com/mariluzc23" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px', color: '#333'}}>
             <FaGithub />
           </a>
         </div>

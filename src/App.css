@@ -273,3 +273,13 @@ hr {
 .resume-download svg {
   margin-right: 8px;
 }
+
+/*Contact Section*/
+
+.submit-button {
+  background-color: #282c34;
+}
+
+.submit-button:hover {
+  background-color: darkslateblue;
+}
