@@ -22,7 +22,7 @@ function App() {
         <div className="projects-grid">
           <ProjectCard
           title="Restaurant Reservation App"
-          description="Full stack reservation and table management system"
+          description="Full stack reservation and table management system."
           techStack={
             <ul>
               <li>React</li>
@@ -30,8 +30,8 @@ function App() {
               <li>Express</li>
               <li>PostreSQL</li>
             </ul>}
-          codeLinkDemo="https://bit.ly/3HUKkdR"
-          codeLink=" https://bit.ly/3PnZg4s"
+          codeLinkDemo="https://bit.ly/3ySb8cQ"
+          codeLink=" https://bit.ly/3AF6CPr"
           />
           <ProjectCard
           title="Flashcard App"
