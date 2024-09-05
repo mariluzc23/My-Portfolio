@@ -43,7 +43,7 @@ function App() {
             <li>HTML</li>
             <li>Bootstrap</li>
           </ul>}
-          codeLinkDemo=""
+          codeLinkDemo="https://bit.ly/3APpqvn"
           codeLink="https://bit.ly/4dxk8TV"
           />
         </div>
