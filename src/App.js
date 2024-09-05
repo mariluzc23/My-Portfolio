@@ -21,7 +21,7 @@ function App() {
         <h2>Javascript Projects</h2>
         <div className="projects-grid">
           <ProjectCard
-          title="Restaurant Reservation App"
+          title="Restaurant Reservation System"
           description="Full stack reservation and table management system."
           techStack={
             <ul>
@@ -35,7 +35,7 @@ function App() {
           />
           <ProjectCard
           title="Flashcard App"
-          description="A responsive and interactive web application designed to help users learn and memorize information through digital flashcards."
+          description="An interactive web application designed to help users learn and memorize information through digital flashcards."
           techStack={
           <ul>
             <li>React</li>
