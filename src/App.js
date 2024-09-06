@@ -43,7 +43,7 @@ function App() {
             <li>HTML</li>
             <li>Bootstrap</li>
           </ul>}
-          codeLinkDemo="https://bit.ly/3APpqvn"
+          codeLinkDemo="https://flashcard-app-capstone-one.vercel.app/"
           codeLink="https://bit.ly/4dxk8TV"
           />
         </div>
