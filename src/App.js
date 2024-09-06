@@ -54,7 +54,7 @@ function App() {
         <div className="projects-grid">
           <ProjectCard
           title="
-          Currency Converter App"
+          Currency Converter"
           description="Developed a Java Swing application for currency conversion, featuring an intuitive GUI."
           techStack={
             <ul>
