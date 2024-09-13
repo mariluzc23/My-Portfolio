@@ -7,6 +7,7 @@ function Contact() {
         <div>
         <section id="contact">
         <h2>Contact Me</h2>
+        <p>mcolon0523@gmail.com</p>
         <a href="/MariluzSWE.pdf" download="MariluzSWE.pdf" className="resume-download">
             <FaDownload size={10}/> Download Resume
         </a>
