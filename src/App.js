@@ -28,7 +28,7 @@ function App() {
               <li>React</li>
               <li>Node.js</li>
               <li>Express</li>
-              <li>PostreSQL</li>
+              <li>PostgreSQL</li>
             </ul>}
           codeLinkDemo="https://bit.ly/3ySb8cQ"
           codeLink=" https://bit.ly/3AF6CPr"
