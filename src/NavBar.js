@@ -15,7 +15,9 @@ function PortfolioNavBar() {
             <Nav.Link href="#about">Professional Summary</Nav.Link>
             <NavDropdown title="Projects" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#javascript-projects">Javascript Projects</NavDropdown.Item>
-                <NavDropdown.Item href="#java-projects">Java Projects</NavDropdown.Item>
+                
+                {/*  WHEN ENABLED PLEASE CONFIRM PROJECTS ARE ADDED TO APP JS*/}
+                {/* <NavDropdown.Item href="#java-projects">Java Projects</NavDropdown.Item> */}
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="https://github.com/mariluzc23" target="_blank" rel="noopener noreferrer">
                     <FaGithub /> GitHub

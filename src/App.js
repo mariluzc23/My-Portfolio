@@ -48,7 +48,10 @@ function App() {
           />
         </div>
       </section>
-      <hr></hr>
+      
+      {/* DISABLED JAVA PROJECTS SECTION WHEN ENABLED PLEASE ADJUST NAV BAR*/}
+
+      {/* <hr></hr>
       <section id="java-projects">
         <h2>Java Projects</h2>
         <div className="projects-grid">
@@ -75,7 +78,7 @@ function App() {
           codeLink="https://bit.ly/3sVVp9m"
           />
         </div>
-      </section>
+      </section> */}
       <Skills /> 
       <Education/>
       <Contact/>
