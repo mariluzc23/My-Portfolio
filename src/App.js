@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useState, useEffect }from 'react';
+import { LuArrowUpToLine } from "react-icons/lu";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import PortfolioNavBar from './NavBar.js';
@@ -12,6 +13,29 @@ import Contact from './Contact.js';
 
   
 function App() {
+
+  const [showScrollButton, setShowScrollButton] = useState(false);
+
+  const scrollToTop = () => {
+    window.scrollTo({top: 0, behavior: "smooth"});
+  };
+
+  useEffect(() => {
+    const handleScroll = () => {
+    if (window.scrollY > 300) {
+      setShowScrollButton(true);
+    } else {
+      setShowScrollButton(false);
+    }
+  };
+
+  window.addEventListener("scroll", handleScroll);
+
+  return () => {
+    window.removeEventListener("scroll", handleScroll);
+}; 
+}, []);
+
   return (
     <div>
       <PortfolioNavBar/>
@@ -82,6 +106,27 @@ function App() {
       <Skills /> 
       <Education/>
       <Contact/>
+      {showScrollButton && (
+        <button
+          onClick={scrollToTop}
+          style={{
+            position: 'fixed',
+            bottom: '20px',
+            right: '20px',
+            backgroundColor: 'FFFFF',
+            color: 'black',
+            border: 'none',
+            borderRadius: '50%',
+            width: '50px',
+            height: '50px',
+            fontSize: '24px',
+            cursor: 'pointer',
+            zIndex: 1000,
+          }}
+        >
+          <LuArrowUpToLine />
+        </button>
+      )}
     </div>
   );
 }
