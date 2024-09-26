@@ -14,7 +14,7 @@ function PortfolioNavBar() {
           <Nav className="me-auto">
             <Nav.Link href="#about">Professional Summary</Nav.Link>
             <NavDropdown title="Projects" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#javascript-projects">Javascript Projects</NavDropdown.Item>
+                <NavDropdown.Item href="#javascript-projects">JavaScript Projects</NavDropdown.Item>
                 
                 {/*  WHEN ENABLED PLEASE CONFIRM PROJECTS ARE ADDED TO APP JS*/}
                 {/* <NavDropdown.Item href="#java-projects">Java Projects</NavDropdown.Item> */}

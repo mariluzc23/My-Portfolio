@@ -42,7 +42,7 @@ function App() {
       <Header/>
       <About/>
       <section id="javascript-projects">
-        <h2>Javascript Projects</h2>
+        <h2>JavaScript Projects</h2>
         <div className="projects-grid">
           <ProjectCard
           title="Restaurant Reservation System"
@@ -67,7 +67,7 @@ function App() {
             <li>HTML</li>
             <li>Bootstrap</li>
           </ul>}
-          codeLinkDemo="https://flashcard-app-capstone-one.vercel.app/"
+          codeLinkDemo="https://flashcard-app-capstone-one1.vercel.app/"
           codeLink="https://bit.ly/4dxk8TV"
           />
         </div>
@@ -124,7 +124,7 @@ function App() {
             zIndex: 1000,
           }}
         >
-          <LuArrowUpToLine />
+        <LuArrowUpToLine />
         </button>
       )}
     </div>

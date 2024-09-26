@@ -1,4 +1,5 @@
 import React from 'react';
+import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact, FaNodeJs, FaJava, FaHtml5, FaCss3Alt, FaBootstrap, } from 'react-icons/fa';
 
 function Skills() {
@@ -6,6 +7,10 @@ function Skills() {
       <section id="skills">
         <h2>Skills</h2>
         <div className="skills-grid">
+        <div className="skill-card" style={{color: '#F7DF1E'}}>
+            <IoLogoJavascript size={50} />
+            <p>JavaScript</p>
+          </div>
           <div className="skill-card" style={{color: '#00d8ff'}}>
             <FaReact size={50} />
             <p>React.js</p>
@@ -26,10 +31,10 @@ function Skills() {
             <FaBootstrap size={50} />
             <p>Bootstrap</p>
           </div>
-          <div className="skill-card" style={{color: '#5382a1'}}>
+          {/* <div className="skill-card" style={{color: '#5382a1'}}>
             <FaJava size={50} />
             <p>Java</p>
-          </div>
+          </div> */}
           {/* Add more skills */}
         </div>
       </section>
